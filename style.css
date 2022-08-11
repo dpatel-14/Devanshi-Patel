@@ -1,0 +1,115 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-image: linear-gradient(to right, #F47C98
+, #FFDBDA);
+/* background-color: rgba(244, 124, 152); */
+
+}
+#myBtn {
+    position: absolute;
+    top:50%;
+    background-color:#BFEDE2;
+    /*center button. display as a block element*/
+  display: block;
+  margin: auto; 
+  
+  /*add spacing within the content of the button*/
+   padding: 10px;
+
+  /* add spacing around the button*/
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+   /*button size*/
+   font-size: 20px;
+
+   /*rounded buttons*/
+   border-radius: 7px;
+}
+/* STYLE TEXT */
+#row1 {
+   display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin-top:50px;
+  
+}
+#row1 p{
+  width: 700px;
+  background-color:rgba(16, 73, 126);
+  padding: 10px;
+}
+#me1 {
+   display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin-top:50px;
+}
+#me1 img{
+  height:300px;
+  width: 200px;
+}
+#me1 p{
+   width: 500px;
+  background-color:rgba(16, 73, 126);
+  padding: 10px;
+
+
+}
+h1 {
+  text-align:center;
+  font-size:4em;
+  color:rgba(16, 73, 126)
+  
+}
+p{
+  color:rgba(238, 231, 233);
+ 
+}
+#nav1{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size:40px;
+}
+nav {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+nav li {
+  margin: 0px;
+  display:
+}
+nav li a {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: rgba(16, 73, 126);
+  float: left;
+}
+nav li a:hover {
+  color: #FFFFFF;
+  background-color: deeppink;
+}
+
+ }
+
+/* ADD MORE! */
+.flexContainer{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
